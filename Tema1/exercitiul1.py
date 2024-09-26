@@ -1,14 +1,11 @@
-#introducem date de la tastatura
-nume=input("introduceti date de la tastatura\n")
-
-if type(sirDecaractere) == str:
-    print("Sirul de caractere a fost gasit de ", nume)
-elif type(nume) == int:
-    print("Sir de numere", nume)
+nume = input("Introduceti numele vostru:")
+text = input("Introduceti un text:")
+if text.isalpha():
+    print(f"Sirul de caractere a fost gasit de {nume}.")
+elif text.isdigit():
+    print("Este un sir de numere.")
 else:
-    print("Altceva")
-
-
+    print("Textul contine litere si cifre.")
 
 
 
